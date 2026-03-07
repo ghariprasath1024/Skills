@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+hr {
+  border: 1px solid white;
+  justify-content: center;
+  width: 300px;
+}
+
+.skillset {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skillset div {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  background-color: #fff1f1;
+  color: white;
+  box-shadow: -8px 8px 1px gray;
+}
+
+.skillset div:hover {
+  box-shadow: -8px 8px 14px rgb(220, 215, 215);
+  cursor: pointer;
+}
+
+.skilltitle {
+  text-align: center;
+}
+
+.skillset1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skillset1 div {
+  width: 400px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: #fff1f1;
+  color: rgb(0, 0, 0);
+  box-shadow: 1px 1px 14px rgb(255, 255, 255);
+}
+
+h6 {
+  text-align: center;
+  color: black;
+  margin-top: 5px;
+}
+
+img {
+  width: 60%;
+  height: 60%;
+  margin-top: 15px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 1px rgb(166, 141, 141);
+}
