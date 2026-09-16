@@ -20,16 +20,21 @@ import lovable from "../image/lovable.jpg";
 import bolt from "../image/bolt.jpg";
 import firebase from "../image/firebase.png";
 import hackerrank from "../image/hackerrankering.png";
+import Leetcode from "../image/leetcode.png";
 const Skills = () => {
     const { skills } = useContext(SkillsContext);
     return (
         <>
             <h1>Skills</h1><hr style={{ "width": "400px" }} /><br />
-            <h3 className="skilltitle">Hacker Ranking</h3> <hr className="hr" /><br />
+            <h3 className="skilltitle">Code Trained Platforms</h3> <hr className="hr" /><br />
             <div className="skillset">
                 <div>
                     <img src={hackerrank} alt="Hacker Ranking" />
                     <h6><a href="https://www.hackerrank.com/profile/ghariprasath1024" target="_blank" rel="noopener noreferrer">Hacker Ranking</a></h6>
+                </div>
+                <div>
+                    <img src={Leetcode} alt="LeetCode" />
+                    <h6><a href="https://leetcode.com/u/HARIPRASATH024/" target="_blank" rel="noopener noreferrer">LeetCode</a></h6>
                 </div>
             </div>
             <h3 className="skilltitle">Main Languages</h3> <hr className="hr" /><br />
