@@ -101,10 +101,6 @@ const Skills = () => {
                     <a href="https://ghariprasath1024.github.io/Weather-Application/">View the Project</a>
                 </div>
                 <div>
-                    <h3>Todo-Application</h3>
-                    <a href="https://takeabook.netlify.app/">View the Project</a>
-                </div>
-                <div>
                     <h3>HtmlAndCssProject</h3>
                     <a href="https://ghariprasath1024.github.io/HtmlAndCssProject/">View the Project</a>
                 </div>
